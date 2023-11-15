@@ -3,11 +3,11 @@ import Filter from "./filter";
 import { HooksTable } from "./hooks";
 
 export default function TableCurrency() {
-  const { getDataView, handleSelectCurrency } = HooksTable();
+  const { getDataView, data, handleSelectCurrency } = HooksTable();
 
   const dataArray = getDataView() || [];
 
-  return dataArray.length > 0 ? (
+  return data.length > 0 ? (
     <div>
       <Filter />
       <div data-testid="table-container" className="container__table">
@@ -17,7 +17,7 @@ export default function TableCurrency() {
             <div className="cell">Price (USD)</div>
             <div className="cell">Price (Bitcoin)</div>
           </div>
-          {dataArray.map((item, index) => (
+          {dataArray?.map((item, index) => (
             <div
               key={index}
               className="row rowClick"
