@@ -1,0 +1,57 @@
+@keyframes viewTable{
+  from { height: 0px; }
+  to { height: 500px; }
+}
+
+.container__table {
+  height: 500px;
+  width: 500px;
+  overflow-y: scroll;
+  animation: viewTable 0.4s ease-in-out;
+}
+
+.container__table::-webkit-scrollbar {
+  width: 8px;
+}
+
+.container__table::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+/* Ocultar la barra de desplazamiento cuando no se esté utilizando */
+.container__table::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: table-row;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.row:nth-child(even) {
+  background-color: #979797;
+}
+.row:hover {
+  background-color: #686868;
+}
+
+.header {
+  display: table-header-group;
+  font-weight: bold;
+  background-color: #000000;
+  color: #fff;
+}
+
+.cell {
+  display: table-cell;
+  padding: 8px;
+}
