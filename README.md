@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# crypto_currency
-This project is a crypto currency to dollars
-=======
 This is a project about a website for a fictional company that need a crypto currency exchange platform. The website is built with Next.js.
 
 ## Getting Started
@@ -19,6 +15,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or you can see the result in [https://main--strong-lollipop-7cc238.netlify.app/] (https://main--strong-lollipop-7cc238.netlify.app/)
 
 ## Tech Stack
 This project is built with the following technologies:
@@ -52,4 +49,3 @@ bun test
 ```
 
 
->>>>>>> 846f93023bd6a84f96763a7de652a378b8c1dfb7
