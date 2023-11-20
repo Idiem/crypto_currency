@@ -55,3 +55,9 @@
   display: table-cell;
   padding: 8px;
 }
+
+@media screen and (max-width: 600px) {
+  .container__table {
+    width: 100%;
+  }
+}
