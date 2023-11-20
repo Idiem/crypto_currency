@@ -1,6 +1,6 @@
-import "./style.css";
+import "@/styles/tableStyles.css";
 import Filter from "./filter";
-import { HooksTable } from "./hooks";
+import { HooksTable } from "@/hooks/tableHooks";
 
 export default function TableCurrency() {
   const { getDataView, data, handleSelectCurrency } = HooksTable();

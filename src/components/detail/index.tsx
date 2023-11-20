@@ -1,4 +1,4 @@
-import "./style.css";
+import "@/styles/detailStyles.css";
 import CalculatorCurrency from "./calculator";
 import PrincipalInfo from "./principalInfo";
 import { useAppSelector } from "@/redux/hooks";

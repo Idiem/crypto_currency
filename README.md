@@ -31,9 +31,11 @@ This project is built with the following technologies:
 The project is structured as follows:
 - `src`: The source code of the project.
   - `components`: The components of the project.
+  - `Hooks`: The hooks of the project.
   - `pages`: The pages of the project.
   - `styles`: The styles of the project.
   - `utils`: The utilities of the project.
+
 
 ## Testing
 The project is tested with Jest and React Testing Library. To run the tests, run the following command:
