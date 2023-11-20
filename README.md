@@ -15,7 +15,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-Or you can see the result in [https://main--strong-lollipop-7cc238.netlify.app/] (https://main--strong-lollipop-7cc238.netlify.app/)
+Or you can see the result in [https://main--strong-lollipop-7cc238.netlify.app/](https://main--strong-lollipop-7cc238.netlify.app/)
 
 ## Tech Stack
 This project is built with the following technologies:
